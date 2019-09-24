@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Much Ado About Ruby"
-date:       2019-09-24 03:55:41 +0000
+date:       2019-09-23 23:55:43 -0400
 permalink:  much_ado_about_ruby
 ---
 
