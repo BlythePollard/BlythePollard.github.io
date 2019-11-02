@@ -1,23 +1,23 @@
 ---
 layout: post
 title:      "CLI Gem: Lessons Learned"
-date:       2019-11-02 17:50:54 +0000
+date:       2019-11-02 13:50:54 -0400
 permalink:  cli_gem_lessons_learned
 ---
 
 
 Okay, building a CLI gem wasn't easy. It's one thing to read a lot of instructions. It's one thing to watch a lot of walkthroughts. It's entirely another thing to create a living, breathing application from scratch. Creating my project was not easy and required quite a few start-overs, but now that I'm on the other side, I'm able to reflect and identify a few important lessons that I learned along the way. 
 
-Lesson 1: Learning is hard.
+**Lesson 1: Learning is hard.**
 I spent 5 years of my life as an elementary school teacher preaching growth mindset and the power of failure to these poor 10 year olds without truly understanding the difficulty of what I was asking them to do. Only since I've stepped out of my own learning comfort zone have I realized how truly hard it is to embrace these ideas. Success in coding depends on a process of repeated failure and learning from those failures. As someone who associates success with what I've created or accomplished, it has been very hard for me to reorient my idea of success. I must push myself to remember that the success that I've had with this project is not the final product, but the learning that I gained through the process of failures, confusion, and fixes. Learning requires us to let go of our egos and fail, and that's hard. But it's also the only way to grow and the more we allow ourselves to be in this state of confusion, the more we learn.
 
-Lesson 2: Planning is crucial. Planning is hard.
+**Lesson 2: Planning is crucial. Also, planning is hard.**
 I jumped into this CLI by watching video walkthroughs and basically copying the video's process. I do think the videos helped me understand the general requirements for creating a working CLI (as well as some great tools for scraping, like the [ScraperChecker](https://repl.it/@jenn_leigh_hansen/ScraperChecker?language=ruby)), but because I went headfirst into tutorial-land, I failed to step back and actually plan out my own project. I eventually got to a point where I had everything I needed, but the relationships just weren't working and I couldn't make sense of my own structure. It took a colleage suggesting that I start from scratch, and a few tears, to realize what I needed to do. I created a new project and planned out the structure on a piece of paper, giving specific and limited responsibilities to each class (see lesson 3). This not only helped me better understand my code, but also made the troubleshooting process much easier. I now realize how important the planning process is and how much easier it can make life in the long run. So from hereon out, I will resist the urge to jump right in and force myself to start with ideation and structure-building. 
 
-Lesson 3: The Single Responsibility Principle.
+**Lesson 3: The Single Responsibility Principle.**
 I heard about it, I read about it, and then it all went out the window when jumped planlessly and excitedly into my project. When I eventually needed to start over, the Single Responsibility Principle was absolutely the reason that I was ultimately able to create a successful CLI project. In case you forgot (I did), The [Single Responsibility Principle](https://medium.com/@severinperez/writing-flexible-code-with-the-single-responsibility-principle-b71c4f3f883f) is one of 5 principles that are said to be crucial when writing flexible code. It states that each class should have a single responsibility or job in your code. Sounds logical, but is very easy to forget when you actually start coding. This principle not only makes it easier to write your code (if you know what it needs to do and where it belongs, all that's left is creating the sintax), but it also makes it a lot easier to troubleshoot (you can identify exactly where something is going wrong) and makes it harder to majorly damage your code (you're only modifying one isolated aspect at a time). Planning a project with the Single Responsibility Principle in mind seems to be a crucial aspect of creating good code. As for the other 4 principles, I plan to take more time to learn about and understand them. 
 
-Lesson 4: Don't go it alone.
+**Lesson 4: Don't go it alone.**
 It's really easy to get isolated in this self-paced program, but my best learnings so far have occured when I've reached out to others and worked through something with them. Attending study groups (I have especially loved the group coding challenges that Malcom hosts), reaching out to other self-paced students in the same section via slack or DMs, and finding other Flatiron students in my area has absolutely enriched my learning and probably kept me from going off the deep end in my solitude. I have also found that every connection I've made with coders in my workplace has ended with wholehearted eagerness to help, collaborate, and mentor. These relationships have not only helped me emotionally through the tougher patches, but have also majorly enriched my learning and built out my support group in a way that will surely benefit me when I'm ready to move into a new role at my company. 
 
 Anyway, these are my major takeaways from this first project. I'm glad to have written them out, not only so that they may help someone else along their journey, but also so that I can revisit my own words when I need them!
