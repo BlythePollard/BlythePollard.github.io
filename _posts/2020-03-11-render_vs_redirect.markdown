@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Render Vs. Redirect"
-date:       2020-03-11 17:59:23 +0000
+date:       2020-03-11 13:59:24 -0400
 permalink:  render_vs_redirect
 ---
 
 
-The topic of rendering versus redirecting is one that has followed (read "haunted") me through both my Sinatra and Rails projects. I've listened to Avi explain the difference multiple times on videos, I've re-read the same Medium article on the topic multiple times, I've gone into many long StackOverflow rabbit holes, and every time I gather the helpful information, I forget again 5 minutes later. 
+The topic of rendering versus redirecting is one that has followed (read: "haunted") me through both my Sinatra and Rails projects. I've listened to Avi explain the difference multiple times on videos, I've re-read the same Medium article on the topic multiple times, I've gone into many long StackOverflow rabbit holes, and every time I gather the helpful information, I forget again 5 minutes later. 
 
 During my Sinatra project assessment, Dustin and I spent time talking over the difference between rendering and redirecting, I wrote extensive notes, and...surprise, I promptly forgot. Moving into my Rails project, I found myself making the same mistakes, not differentiating well between the two rerouting methods, and not being able to explain when to use one over the other. Enough is enough! Let's get this figured out. 
 
