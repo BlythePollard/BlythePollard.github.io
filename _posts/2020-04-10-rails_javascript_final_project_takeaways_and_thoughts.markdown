@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails/Javascript Final Project: Takeaways & Thoughts"
-date:       2020-04-10 23:37:57 +0000
+date:       2020-04-10 19:37:58 -0400
 permalink:  rails_javascript_final_project_takeaways_and_thoughts
 ---
 
